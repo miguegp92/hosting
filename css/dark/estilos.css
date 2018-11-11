@@ -1,0 +1,89 @@
+div#cabecera, div#ruta, div#contenido, div#acciones{
+    width: 90%;
+    margin: 5px auto;
+    border-radius: 5px 5px 5px 5px;
+    border: solid 1px black;
+}
+
+div#acciones{
+    background-color: sienna;
+}
+div#cabecera{
+    color: white;
+}
+div#cabecera h1, div#mostraruta{
+    margin-left: 10px;
+}
+div#cabecera div#nombre, div#cabecera div#perfil{
+    width: 40%;
+
+}
+div#cabecera div#perfil{
+float: right;    
+}
+
+input#cerrarSesion, input#miPerfil, input#cambiarEstilo{
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    color: transparent;
+}
+input#cambiarEstilo{
+    background-image: url("../imagenes/estilos.png");
+}
+input#miPerfil{
+    background-image: url("../imagenes/perfil.png");
+}
+input#cerrarSesion{
+    background-image: url("../imagenes/closesesion.png");
+}
+div#ruta{
+    clear: both;
+}
+
+div#contenido table {
+    width: 100%;
+    
+}
+div#contenido table thead {
+    text-align: center;
+}
+div#carpetas{
+    float: right;
+    margin-top: 10px;
+}
+div#acciones form{
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.carpeta img, .archivo img{
+    width: 30px;
+    height: 30px;
+}
+div#cabecera, div#ruta{
+    background-color: sienna; 
+}
+
+ul li {
+    list-style-type: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #aaaaaa;
+    width: 90%;
+}
+
+li form{
+    display: inline;
+}
+
+li form input, li input[type=submit],li input[type=button], li input[type=text]{
+    float: right;
+}
+
+
+div#botones {
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
